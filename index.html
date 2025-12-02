@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ebad Furqan | Senior Full Stack Engineer</title>
+    <meta name="description" content="Portfolio of Ebad Furqan, a Senior Full Stack Developer specializing in scalable web architecture, React, and Node.js.">
+    <meta name="keywords" content="Ebad Furqan, Full Stack Developer, Software Engineer, React, Node.js, Web Development, Portfolio">
+    <meta name="author" content="Ebad Furqan">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ebadfurqan.dev/">
+    <meta property="og:title" content="Ebad Furqan | Senior Full Stack Engineer">
+    <meta property="og:description" content="Building scalable digital solutions with modern web technologies.">
+    <meta property="og:image" content="https://placehold.co/1200x630/0a0a0a/00E5FF?text=Ebad+Furqan+Portfolio">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://ebadfurqan.dev/">
+    <meta property="twitter:title" content="Ebad Furqan | Senior Full Stack Engineer">
+    <meta property="twitter:description" content="Building scalable digital solutions with modern web technologies.">
+    <meta property="twitter:image" content="https://placehold.co/1200x630/0a0a0a/00E5FF?text=Ebad+Furqan+Portfolio">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: '#00E5FF',
+              secondary: '#050505', // Darker background for modern look
+              'primary-dark': '#00B8D4',
+              'surface': '#121212',
+              'surface-highlight': '#1E1E1E',
+              'glass': 'rgba(18, 18, 18, 0.7)'
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            animation: {
+              'pulse-slow': 'pulse 8s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              'float': 'float 6s ease-in-out infinite',
+            },
+            keyframes: {
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-20px)' },
+              }
+            }
+          },
+        },
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #050505;
+        color: #e5e5e5;
+        overflow-x: hidden;
+      }
+      ::selection {
+        background: #00E5FF;
+        color: #000;
+      }
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #050505;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #333;
+        border-radius: 4px;
+        border: 2px solid #050505;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #00E5FF;
+      }
+      .glass-panel {
+        background: rgba(20, 20, 20, 0.6);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+      }
+      .text-gradient {
+        background: linear-gradient(135deg, #ffffff 0%, #9ca3af 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .text-gradient-primary {
+        background: linear-gradient(135deg, #00E5FF 0%, #0072F5 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      @media print {
+        .no-print {
+          display: none !important;
+        }
+        .print-only {
+          display: block !important;
+        }
+        body {
+          background-color: white;
+          color: black;
+        }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "recharts": "https://aistudiocdn.com/recharts@^3.5.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.6",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
